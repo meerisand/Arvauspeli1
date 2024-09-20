@@ -15,7 +15,7 @@ public class App {
         } while (!nimi.equals( "loppu!") && !nimi.equals("Meri"));
         
         if (nimi.equals("Meri")) {
-            System.out.println("Onnittelut!");
+            System.out.println("Onnittelut!!!");
             System.out.println("Arvasit " + arvaus + " kertaa.");
         }
         else {
