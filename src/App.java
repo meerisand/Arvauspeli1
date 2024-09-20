@@ -12,9 +12,9 @@ public class App {
         System.out.println("Arvaa nimeni. (Jos haluat lopettaa, kirjoita loppu!)");
         nimi = in.nextLine();
         arvaus++;
-        } while (!nimi.equals( "loppu!") && !nimi.equals("Meri"));
+        } while (!nimi.equals( "loppu!") && !nimi.equals("Merri"));
         
-        if (nimi.equals("Meri")) {
+        if (nimi.equals("Merri")) {
             System.out.println("Onnittelut!!!");
             System.out.println("Arvasit " + arvaus + " kertaa.");
         }
